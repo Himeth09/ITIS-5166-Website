@@ -1,3 +1,18 @@
 .navbar-nav > li {
     padding: 0 3em;
 }
+
+#trade-categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 5em 3em 0 3em;
+}
+
+/* .btn {
+    margin: 1em;
+} */
