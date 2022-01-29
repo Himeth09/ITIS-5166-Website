@@ -49,3 +49,21 @@
 .card {
     margin: 5em 3em 5em 3em;
 }
+
+#item-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin: 10vh 0;
+}
+
+.form-group {
+    margin-bottom: 2vh;
+}
+
+#description {
+    height: 15vh;
+}
