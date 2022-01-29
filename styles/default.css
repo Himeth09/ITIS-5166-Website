@@ -26,7 +26,7 @@
 }
 
 #welcome {
-    padding-top: 15vh;
+    padding: 15vh 5vh 20vh 5vh;
 }
 
 .row {
@@ -66,4 +66,8 @@ form {
 
 #description {
     height: 15vh;
+}
+
+.btn {
+    margin: .5vh;
 }
