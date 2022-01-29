@@ -1,18 +1,51 @@
 .navbar-nav > li {
-    padding: 0 3em;
+    padding: 0 3em 0 1em;
+}
+
+.navbar-brand {
+    padding-left: 1em;
+}
+
+#top-white-space {
+    padding-top: 2.9vh;
+    background-color: #222529;
+}
+
+#bordered-nav {
+    border-top: white;
+    border-width: 1px;
+    border-style:solid;
+}
+
+#footer-nav {
+    background-color: #222529;
+}
+
+#copyright {
+    color: gray;
+}
+
+#welcome {
+    padding-top: 15vh;
+}
+
+.row {
+    height: 75vh;
+}
+
+@media screen and (max-width: 1000px) {
+    .row {
+        height: 100%;
+    }
+    
 }
 
 #trade-categories {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
 .card {
-    margin: 5em 3em 0 3em;
+    margin: 5em 3em 5em 3em;
 }
-
-/* .btn {
-    margin: 1em;
-} */
