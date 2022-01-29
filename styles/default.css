@@ -40,7 +40,7 @@
     
 }
 
-#trade-categories {
+#trade-category-1, #trade-category-2 {
     display: flex;
     align-items: center;
     justify-content: center;
